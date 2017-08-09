@@ -1,19 +1,40 @@
 {
   "name": "gulp-inherit",
   "version": "1.0.0",
-  "description": "",
+  "description": "morning",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">= 8.2.1"
+  },
+  "keywords": [
+    "compile",
+    "gulp",
+    "inherit",
+    "jade",
+    "pug",
+    "stream"
+  ],
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yuta-Nakano/gulp-inherit.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yuta Nakano",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Yuta-Nakano/gulp-inherit/issues"
   },
-  "homepage": "https://github.com/Yuta-Nakano/gulp-inherit#readme"
+  "homepage": "https://github.com/Yuta-Nakano/gulp-inherit#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "normalize-path": "^2.1.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.3",
+    "stylus": "^0.54.5",
+    "through2": "^2.0.3"
+  }
 }
