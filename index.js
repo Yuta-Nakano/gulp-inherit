@@ -158,4 +158,3 @@ function init(file, options) {
     })
   }
 }
-
