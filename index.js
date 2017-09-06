@@ -109,7 +109,7 @@ function init(file, options) {
           }
         }
 
-        if (_lib.isset(_file)) {
+        if (typeof grapher != "undefined" && _lib.isset(_file)) {
           _dependencies = grapher.getDependencies(_file.path);
           _dependencies = _.flattenDeep(_dependencies);
           _dependencies.forEach(function(value, index) {
